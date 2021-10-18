@@ -1,0 +1,21 @@
+---
+title: "Assessment 1"
+author: "Tri Nguyen"
+date: "10/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+#Rmakrdown Editing 
+
+*italic*
+**bold**
+
+```{r}
+fastfood<-read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv")
+```
+
